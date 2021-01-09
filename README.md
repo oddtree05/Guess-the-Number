@@ -6,8 +6,8 @@ print('Choose a range to pick a number from.')
 # while loop for user to input an integer for the upper and lower range
 while True: 
     try:
-        first_value = int(input('Enter the first value: \n'))  
-        second_value = int(input('Enter the second value: \n'))
+        first_value = int(input('Enter the first value: '))  
+        second_value = int(input('Enter the second value: '))
         break
     except: 
         print('Input needs to be integer.')
