@@ -35,5 +35,4 @@ while guess != answer:
     except: # throw exception if user guess input is not an integer
         print('Error. Only integers are allowed')
 
-
 print('Congratulations! You guessed the number!')
