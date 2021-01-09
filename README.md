@@ -9,7 +9,7 @@ while True:
         first_value = int(input('Enter the first value: '))  
         second_value = int(input('Enter the second value: '))
         break
-    except: 
+    except: # throw an exception if user input is not an integer
         print('Input needs to be integer.')
 
 # identifying and defining upper and lower range using the given 2 integer inputs
@@ -21,7 +21,7 @@ else:
     upper_range = second_value
 
 # randomly generated number
-answer = random.randint(lower_range, upper_range) 
+answer = random.randint(lower_range, upper_range)
 guess = None
 
 # while loop for user to input correct number
@@ -32,7 +32,8 @@ while guess != answer:
             print('Incorrect. The number is lower')
         elif guess < answer:
             print('Incorrect. The number is higher')
-    except:
+    except: # throw exception if user guess input is not an integer
         print('Error. Only integers are allowed')
+
 
 print('Congratulations! You guessed the number!')
