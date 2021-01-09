@@ -20,7 +20,8 @@ else:
     lower_range = first_value
     upper_range = second_value
 
-answer = random.randint(lower_range, upper_range)
+# randomly generated number
+answer = random.randint(lower_range, upper_range) 
 guess = None
 
 # while loop for user to input correct number
