@@ -10,7 +10,7 @@ while True:
         second_value = int(input('Enter the second value: '))
         break
     except: # throw an exception if user input is not an integer
-        print('Input needs to be integer.')
+        print('Input needs to be an integer.')
 
 # identifying and defining upper and lower range using the given 2 integer inputs
 if first_value > second_value:
